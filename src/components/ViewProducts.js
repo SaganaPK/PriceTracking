@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Box, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 import { db } from '../firebase/FirebaseConnection';
 import { collection, getDocs } from 'firebase/firestore';
 
